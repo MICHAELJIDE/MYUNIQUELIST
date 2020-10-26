@@ -1,0 +1,366 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 22 05:15:50 2020
+
+@author: lenovo
+"""
+
+
+def myUniqueList(food):
+    for x in food:
+        print(x)
+        
+        
+fruits = ["mango","tangerine","pear"]
+
+cereals = ["maize","rice","wheat"]
+
+vegetables = ["spinach","broccoli","carbage"]
+
+
+myUniqueList(fruits)
+
+myUniqueList(cereals)
+
+myUniqueList(vegetables)
+
+    
+myUniqueList = ["mango","tangerine","pear","maize",
+                      "rice","wheat","spinach","broccoli","carbage"]
+
+print(myUniqueList)
+
+
+
+
+
+'''myNewList- a function for a new list of food 
+to be added to myUniqueList periodically 
+before procurement order is made'''
+
+
+def myNewList(food):
+    for y in food:
+        print(y)
+        
+
+cereals = ["barley", "oats","wheat"]
+
+myNewList(cereals)
+
+
+myNewList = ["barley"," oats","wheat"]
+
+print(myNewList)
+
+
+'''the two lists to be concactnated by 
+conditional boolean statements to remove the regular
+ order from the irregular list'''
+
+
+
+
+myUniqueList = ["mango","tangerine","pear","maize",
+                      "rice","wheat","spinach","broccoli","carbage"]
+
+myNewList = ["barley"," oats","wheat"]
+
+
+
+'''checking if each of the items in myNewList can
+be passed to myUniquelist with conditional statements'''
+
+
+
+if "barley" in myUniqueList:
+    print(True)
+else:
+    print(False)  or myUniqueList.append("barley")
+    
+print(myUniqueList)
+
+
+
+if "oats" in myUniqueList:
+    print(True)
+else:
+    print(False) or myUniqueList.append("oats")
+    
+print(myUniqueList)
+
+
+if "wheat" in myUniqueList:
+    print(True)
+else:
+    print(False) or myUniqueList.append("wheat")
+    
+    
+print(myUniqueList)
+
+
+   
+
+#CODE FOR STANDARD FOOD LIST FOR periodic grocery store PROCUREMENT.
+
+    
+    
+def myUniqueList(food):
+    for x in food:
+        print(x)
+        
+#X = food [(fruits),(cereals),(vegetables)]
+        
+fruits = ["food1","food2","food3"]
+cereals = ["food","food5","food6"]
+vegetables = ["food7","food8","food9"]
+
+
+myUniqueList(fruits)
+myUniqueList(cereals)
+myUniqueList(vegetables)
+
+myUniqueList = ["food1","food2","food3","food4",
+                "food5","food6","food7","food8","food9"]
+
+print(myUniqueList)
+
+
+
+# CODE TO CREATE NON-REGULAR FOOD REQUEST UPDATE LIST "myNewList".
+
+def myNewList(food):
+    for y in food:
+        print(y)
+        
+
+cereals = ["food10","food11","food12"]
+
+myNewList(cereals)
+
+
+myNewList = ["food10","food11","food12"]
+
+print(myNewList)
+        
+
+#JUXTAPOSING the two lists
+
+myUniqueList = ["food1","food2","food3","food4",
+                "food5","food6","food7","food8","food9"]
+
+myNewList = ["food10","food11","food12"]
+
+
+# conditional boolean to sort myNewList into myUniqueList
+
+if "food10" in myUniqueList:
+    print(True)
+else:
+    print(False)  or myUniqueList.append("food10")
+    
+print(myUniqueList)
+
+
+
+if "food11" in myUniqueList:
+    print(True)
+else:
+    print(False) or myUniqueList.append("food11")
+    
+print(myUniqueList)
+
+
+if "food12" in myUniqueList:
+    print(True)
+else:
+    print(False) or myUniqueList.append("food12")
+    
+print(myUniqueList)
+
+
+
+
+food1 = "mango"
+food2 = "tangerine"
+food3 = "pear"
+food4 = "maize"
+food5 = "rice"
+food6 = "wheat"
+food7 = "spinach"
+food8 = "broccoli"
+food9 = "carbage"
+food10 = "barley"
+food11 = "oats"
+food12 = "wheat"
+
+
+myUniqueList = []
+
+
+
+
+''' a function 'myleftyovers' to group all non=unique inputs'''
+
+
+#def myLeftovers():
+    #for z in myLeftovers:
+        #print (z)
+
+
+#food# any new item introduced to the list
+        
+#if 'food#' in myUniqueList:
+    #(print(True))
+    
+    
+    
+#elif (print(False)):
+    
+    
+#else:    
+    #myLeftovers.append("food#")
+    
+
+                                       
+
+
+#myLeftovers()
+    
+
+
+
+
+
+        
+#Numbers = []
+    
+#for num in range (10):
+    #Numbers.append(num)
+    #print(num)
+    
+    
+#print(Numbers)
+      
+        
+#Numbers = [1,2,3,4,5]
+
+#for l in Numbers:
+    #if l%2 == 1:
+       #print(l)  
+       
+       
+       
+       
+#counter = 2    
+#Sum = 0  
+#while(counter<=25):
+    #print(counter)
+    #Sum = Sum + counter
+   # counter = counter + 1
+    
+#print (Sum)
+
+
+
+
+Letters = ["a","b","c","d","e"]
+
+Index = 0
+
+while(Index < len(Letters)):
+    print(Index)
+    print(Letters[Index])
+    Index = Index + 1
+    
+    
+    
+    
+height = 5000
+velocity = 50
+time = 0
+
+while (height>0):
+    height = height - velocity
+    time = time + 1
+    
+print(height)
+print(time)
+
+
+
+Participants = ["Ade","Olu","Ola","Oye","Ayo"]
+
+position = 1
+
+for name in Participants:
+    if name == "Ola":
+        break
+    position = position + 1
+    
+print(position)
+
+
+
+
+Participants = ["Ade","Olu","Ola","Oye","Ayo"]
+
+position = 1
+
+for name in Participants:
+    if name == "Ola":
+        print("About to break")
+        break
+    print("About to increment")
+    position = position + 1
+    
+print(position)
+
+
+
+for number in range (10):
+    if number%2 == 0:
+        print('Divisible by 3')
+        continue
+    print (number)
+    print('Not Divisible by 3')
+    
+    
+    
+    
+Word = "Hello"
+
+Letters =[]
+
+for w in Word:
+    Letters.append(w)
+    
+print(Letters)
+
+
+
+#i = 1
+
+#while True:
+    ##if i%3 == 0:
+        #break
+    #print(i)
+    #i += 1
+    
+    
+#for i in range (2.0):
+   # print(i)
+    
+    
+    
+counter =1 
+while (counter <= 10):
+    print(counter)
+    counter = counter +1
+    
+    
+    
+X = 'abcd'
+
+for i in range(len(X)):
+    print(i)
